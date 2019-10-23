@@ -1,0 +1,219 @@
+﻿<!--
+Theme: ssimplebox
+version: 2.3
+author: teamtentacle
+license: creative commons CC-BY-NC-SA
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+		<view name="system">
+			<image name="background" extra="true">
+				<tile>false</tile>
+				<size>0 1</size>
+				<pos>0.5 0.5</pos>
+				<origin>0.5 0.5</origin>
+				<path>./art/top_bg.png</path>
+			</image>
+			<helpsystem name="help">
+				<pos>0.01 0.96</pos>
+				<textColor>A2A2A2</textColor>
+				<iconColor>A2A2A2</iconColor>
+				<fontSize>0.03</fontSize>
+			</helpsystem>
+			<image name="CenterFade" extra="true">
+				<tile>false</tile>
+				<size>1 0.5</size>
+				<pos>0.5 0.5</pos>
+				<origin>0.5 0.5</origin>
+				<path>./art/centerfade.png</path>
+				<color>8b000050</color>
+			</image>
+
+			<image name="ControllerOverlay" extra="true">
+				<color>aaaaaa</color>
+			</image>
+		</view>
+
+		<view name="basic, detailed, video">
+			<image name="background">
+				<tile>false</tile>
+				<pos>0 0</pos>
+				<origin>0 0</origin>
+				<size>1 1</size>
+				<path>./art/bg.png</path>
+			</image>
+
+			<image name="main_logo" extra="true">
+				<pos>0.2875 0.12</pos>
+				<origin>0.5 0.5</origin>
+				<maxSize>0.3046875 0.148148</maxSize>
+				<path>./art/logo.png</path>
+				<zIndex>35</zIndex>
+			</image>
+			<image name="logo">				
+				<pos>0.777083333 0.796</pos>
+				<maxSize>0.310 0.150</maxSize>
+				<origin>0.5 0.5</origin>
+			</image>
+<!--
+			<image name="sc_overlay_scanline" extra="true">
+				<pos>0.777083333 0.191666667</pos>
+				<origin>0.5 0</origin>
+				<size>0.394791667 0.506481481</size>
+				<path>./art/screen_scanline.png</path>
+				<zIndex>31</zIndex>
+			</image>
+-->
+			<textlist name="gamelist">
+				<pos>0.020833333 0.2200</pos>
+				<size>0.533333333 0.644</size>
+				<selectorColor>378ac7</selectorColor>
+				<selectedColor>ffffff</selectedColor>
+				<primaryColor>85a4b7</primaryColor>
+				<secondaryColor>f8d700</secondaryColor>
+				<fontPath>./art/font.ttf</fontPath>
+				<forceUppercase>0</forceUppercase>
+				<horizontalMargin>0.021</horizontalMargin>
+				<lineSpacing>1.86</lineSpacing>
+				<alignment>left</alignment>
+				<fontSize>0.03</fontSize>
+				<scrollSound>./art/scroll.wav</scrollSound>
+				<selectorImagePath>./art/selector.png</selectorImagePath>
+				<selectorHeight>0.066666667</selectorHeight>
+				<selectorOffsetY>-0.008</selectorOffsetY>
+				<zIndex>35</zIndex>
+			</textlist>
+			<helpsystem name="help">
+				<pos>0.023958333 0.925925926</pos>
+				<textColor>4d759b</textColor>
+				<iconColor>4d759b</iconColor>
+				<fontSize>0.023611</fontSize>
+			</helpsystem>
+<!--
+			<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lbl_players, md_genre, md_developer, md_players, md_description">
+				<pos>1 1</pos>
+			</text>
+			<datetime name="md_lastplayed, md_releasedate">
+				<pos>1 1</pos>
+			</datetime>
+			<rating name="md_rating">
+				<pos>1 1</pos>
+			</rating>
+-->
+		</view>
+
+		<view name="basic, detailed, video">
+			<image name="bg_overlay" extra="true">
+				<tile>false</tile>
+				<pos>0 0</pos>
+				<origin>0 0</origin>
+				<size>1 1</size>
+				<path>./art/bg_overlay.png</path>
+				<zIndex>34</zIndex>
+			</image>
+			<image name="md_marquee">
+				<pos>0.777083333 0.140</pos>
+				<origin>0.5 0.5</origin>
+				<maxSize>0.300 0.180</maxSize>
+			</image>
+			<image name="md_image">
+				<pos>0.777083333 0.444444444</pos>
+				<maxSize>0.404166667 0.518518519</maxSize>
+				<origin>0.5 0.5</origin>
+			</image>
+			<text name="md_rating">
+				<pos>-50 -50</pos>
+				<size>0.04 0.03</size>
+			</text>
+		</view>
+
+		<feature supported="video">
+			<view name="video">
+				 <video name="md_video">
+						<pos>0.777083333 0.444444444</pos>
+						<maxSize>0.404166667 0.518518519</maxSize>
+						<origin>0.5 0.5</origin>
+						<delay>0.0</delay>
+						<default></default>
+						<showSnapshotNoVideo>true</showSnapshotNoVideo>
+						<showSnapshotDelay>false</showSnapshotDelay>
+				 </video>
+			</view>
+		</feature>
+		<view name="grid">
+			<helpsystem name="help">
+				<pos>0.01 0.96</pos>
+				<textColor>535353</textColor>
+				<iconColor>535353</iconColor>
+				<fontSize>0.03</fontSize>
+			</helpsystem>
+			<image name="footer" extra="true">
+				<path>./art/bg_white.jpg</path>
+				<color>FFFFFFD8</color>
+				<pos>0 1</pos>
+				<origin>0 1</origin>
+				<size>1 0.05</size>
+				<zIndex>13</zIndex>
+			</image>				
+			<image name="logo-h1" extra="true">
+				<path>./art/bg_white.jpg</path>
+				<color>FFFFFFD8</color>
+				<pos>0 0</pos>
+				<origin>0 0</origin>
+				<size>1 0.07</size>
+				<zIndex>13</zIndex>
+			</image>
+			<image name="logo">
+				<pos>0.5 0.035</pos>
+				<origin>0.5 0.5</origin>
+				<maxSize>1 0.06</maxSize>
+			</image>
+			<text name="md_rating">
+				<pos>-50 -50</pos>
+				<size>0.04 0.03</size>
+			</text>
+		</view>
+		<customView name="Grid Video" inherits="grid">
+			<imagegrid name="gamegrid">
+				<showVideoAtDelay>200</showVideoAtDelay>
+				<autoLayout>4 3</autoLayout>
+				<autoLayoutSelectedZoom>1.32</autoLayoutSelectedZoom>
+				<imageSource>image</imageSource>
+				<margin>0.005 0.010</margin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<padding>0.03 0.13 0.03 0.08</padding>
+				<zIndex>11</zIndex>
+				<animateSelection>true</animateSelection>
+			</imagegrid>
+			<gridtile name="default">
+				<size>0.225 0.254</size>
+				<backgroundColor>00000000</backgroundColor>
+				<padding>0 0</padding>
+				<imageSizeMode>minSize</imageSizeMode>
+				<imageColor>FFFFFFAA</imageColor>
+			</gridtile>
+			<gridtile name="selected">
+				<size>0.230 0.259</size>
+				<padding>10 10</padding>
+				<backgroundColor>FFFFFFFF</backgroundColor>
+				<imageColor>FFFFFFFF</imageColor>
+			</gridtile>
+			<text name="gridtile">
+				<color>ffffff</color>
+				<backgroundColor>00000090</backgroundColor>
+				<fontSize>0.030</fontSize>
+				<alignment>center</alignment>
+				<size>0 0.2</size>
+			</text>
+			<text name="gridtile_selected">
+				<color>000000</color>
+				<fontSize>0.035</fontSize>
+				<alignment>center</alignment>
+				<glowSize>4</glowSize>
+				<glowColor>FFFFFFFF</glowColor>
+				<size>0 0.2</size>
+			</text>
+			
+		</customView>
+</theme>
