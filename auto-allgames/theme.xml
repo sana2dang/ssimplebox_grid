@@ -1,0 +1,36 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../simplebox.xml</include>
+
+	<view name="system">
+
+		<image name="ControllerOverlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.2</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.3 0</size>
+			<path>./art/controller.svg</path>
+			<!--<color>8b0000</color>-->
+		</image>
+		
+		<image name="logo">
+			<path>./art/system.svg</path>
+     </image>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+		</image>
+
+	</view>
+
+	<view name="basic">		
+	</view>
+
+	<view name="detailed, video">
+	</view>
+	
+</theme>
