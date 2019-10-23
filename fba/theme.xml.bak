@@ -1,0 +1,49 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../pandorabox.xml</include>
+
+	<view name="system">
+
+		<image name="ControllerOverlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.2</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.3 0</size>
+			<path>./art/controller.svg</path>
+			<!--<color>8b0000</color>-->
+		</image>
+		
+		<image name="logo">
+			<path>./art/system.svg</path>
+     </image>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+
+    <image name="metadata_helper_4" extra="true">
+        <path>./art/bg_color.png</path>
+        <origin>0 0</origin>
+        <pos>0.75 0.07</pos>
+        <size>0.23 0.04</size>
+        <color>5bb80044</color>
+    </image>
+
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<pos>0.796 0.038</pos>
+			<maxSize>0.316 0.110</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+
+	</view>
+
+	<view name="basic">		
+	</view>
+
+	<view name="detailed, video">
+	</view>
+	
+</theme>
